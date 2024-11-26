@@ -45,6 +45,7 @@ cd Advanced-Topics-of-Software-Engineering-24-25
 </code></div></div></pre>
 
 > **Note:** Replace `your-username` with your GitHub username. Make sure you have forked the repository.
+> if you need to you are required to authorize your account when cloning the repo, please choose `SSH` way. (Need to create a new key on GitHub)
 
 ### 2. Create a Virtual Environment
 
