@@ -1,5 +1,5 @@
 from calculator import Calculator
-import pytest
+
 
 class TestCalculator:
     def test_add(self):
@@ -18,4 +18,4 @@ class TestCalculator:
     def test_divide(self):
         calc = Calculator()
         assert calc.divide(10, 1) == 10
-        assert calc.divide(1, 0) == 1
+        

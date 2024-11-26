@@ -1,5 +1,6 @@
 import math
 
+
 class Calculator:
     def __init__(self):
         self.memory = 0
@@ -43,7 +44,7 @@ class Calculator:
 
     def factorial(self, a):
         if not isinstance(a, int) or a < 0:
-            raise ValueError("Factorial is only defined for non-negative integers.")
+            raise ValueError("Factorial is only for non-negative integers.")
         result = math.factorial(a)
         self._push_stack(result)
         return result
