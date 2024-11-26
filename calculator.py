@@ -75,5 +75,5 @@ class Calculator:
         return self.stack.copy()
 
     def clear_stack(self):
-        """Clears the result stack."""
+        """Clears the result stack. :)"""
         self.stack.clear()
