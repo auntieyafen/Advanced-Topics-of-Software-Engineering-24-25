@@ -25,7 +25,7 @@ class Calculator:
     def divide(self, a, b):
         if b == 0:
             raise ValueError("Cannot divide by zero.")
-        result = a * b
+        result = a / b
         self._push_stack(result)
         return result
 
